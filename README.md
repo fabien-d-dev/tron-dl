@@ -23,3 +23,10 @@ The core challenge lies in the red opponent: it is powered by **TensorFlow.js** 
 
 ## 🎯 Project Goal
 This project serves as a bridge between traditional web development and the future of AI-integrated applications. It demonstrates the ability to manage complex state, neural network training, and real-time game loops.
+
+
+## 🎬 Demo
+<video src="app/src/assets/videos/screenshot.mp4" controls="controls" style="max-width: 100%;">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
