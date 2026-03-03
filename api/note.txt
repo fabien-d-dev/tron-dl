@@ -1,0 +1,58 @@
+Ce projet regroupe mes experience Node.js / Express et JS vanila
+
+Astuce node (NODE TEST include) : https://nodesource.com/blog/nodejs-features-replacing-npm-packages
+Node js file : https://nodejs.org/en/learn/manipulating-files/nodejs-file-stats
+JS tricks https://allthingssmitty.com/2025/10/06/grouping-arrays-in-modern-javascript-object-groupby-and-map-groupby/
+Vitest Node https://www.w3tutorials.net/blog/vitest-nodejs/
+
+Objectif MERN:
+MongoDB et Mongoose: https://www.mongodb.com/try/download/mongocli
+Mongoose: https://mongoosejs.com/docs/index.html
+
+Mongoose peut etre super utile, l'ORM de MongoDb peut etre greffer sur NEST.js ou Angular etc...
+avec l'obligation d'utiliser MongoDB car ORM est lie a la BDD.
+
+Pour SQL : Sequelize, TypeORM, Prisma…
+Pour NoSQL comme CouchDB ou Firebase,Mongoose, il existe leurs propres bibliothèques spécifiques.
+==============================================================
+Actuellement en place:
+
+Node:Server Node.js v22
+Nodemon: Live refresh avec Nodemon(Uniquement pour dev)
+Node:test: Pour les TDD
+Express: Pour le routing server et la modularite
+Prisma: en Guise d'ORM, pour une communiquation simple avec la DB et eviter le SQL (clarte, securite)
+
+==============================================================
+RUN PROJECT
+
+// Lancer le projet avec Nodemon
+npm run dev (auto refresh)
+
+
+==============================================================
+PRISMA
+
+// Importer les donnes de la DB vers les schema du projet
+npx prisma db pull
+
+// Nettoie tout et reset la base
+npx prisma migrate reset
+
+// Migrer les schema vers la DB
+npx prisma migrate dev
+
+// Feed les tables avec les seeds
+npx prisma db seed
+
+==============================================================
+TEST
+
+// Lancer un test
+node --test tests/log.test.js
+
+// Lancer tous les tests
+node --test
+
+// Pour exécuter uniquement certains tests par nom 
+node --test --test-name "addition works"
