@@ -26,7 +26,5 @@ This project serves as a bridge between traditional web development and the futu
 
 
 ## 🎬 Demo
-<video src="app/src/assets/videos/screenshot.mp4" controls="controls" style="max-width: 100%;">
-  Votre navigateur ne supporte pas la lecture de vidéos.
-</video>
+https://github.com/fabien-d-dev/tron-dl/blob/main/app/src/assets/videos/screenshot.mp4
 
