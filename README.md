@@ -26,5 +26,5 @@ This project serves as a bridge between traditional web development and the futu
 
 
 ## 🎬 Demo
-https://github.com/fabien-d-dev/tron-dl/blob/main/app/src/assets/videos/screenshot.mp4
+<video src="https://raw.githubusercontent.com/fabien-d-dev/tron-dl/main/app/src/assets/videos/Enregistrement.mp4" controls width="600"></video>
 
